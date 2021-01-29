@@ -2,6 +2,12 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Typography */
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #1d293f;
+}
+
 section {
     padding: 5rem 0;
     border-bottom: 1px solid gray;
