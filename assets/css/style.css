@@ -1,14 +1,43 @@
+
+/* Smooth scrolling for anchor links */
 html {
   scroll-behavior: smooth;
 }
 
-/* Typography */
 body {
-	font-family: 'Open Sans', sans-serif;
+    background: url("/assets/images/blobs.png") center top / contain no-repeat;
+}
+
+/* Typography */
+body,
+.card {
+    font-family: 'Open Sans', sans-serif;
 	color: #1d293f;
+}
+
+.copy-title {
+    letter-spacing: -1px;
+}
+
+/* Navbar */
+.navbar img {
+    max-width: 2rem;
+}
+
+.show {
+    background: white;
+}
+
+/* Logo section */
+#logo-grid img {
+    max-width: 6.25rem;
 }
 
 section {
     padding: 5rem 0;
-    border-bottom: 1px solid gray;
+}
+
+.bg-dark {
+    background: #1d293f;
+    color: #ffffff;
 }
