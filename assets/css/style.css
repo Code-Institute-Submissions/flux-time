@@ -1,4 +1,3 @@
-
 /* Smooth scrolling for anchor links */
 html {
   scroll-behavior: smooth;
@@ -19,9 +18,19 @@ body,
     letter-spacing: -1px;
 }
 
+.bg-dark {
+    color: #ffffff;
+    background: #1d293f;
+}
+
 /* Navbar */
 .navbar img {
     max-width: 2rem;
+}
+
+.btn-primary {
+    background-color: #258aff;
+    border-color: #258aff;
 }
 
 .show {
@@ -35,9 +44,4 @@ body,
 
 section {
     padding: 5rem 0;
-}
-
-.bg-dark {
-    background: #1d293f;
-    color: #ffffff;
 }
