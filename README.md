@@ -2,7 +2,7 @@
 
 [View the live project here.](https://garybarrettdev.github.io/flux-time/)
 
-This is the main marketing website for Flux Time, a workforce mamangement SaaS company. It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential customers.
+This is the main marketing website for Flux Time, a remote employee scheduling app. It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential customers.
 
 <h2 align="center"><img src="https://i.ibb.co/TYvTXz1/Example-CI.png"></h2>
 
@@ -29,19 +29,16 @@ This is the main marketing website for Flux Time, a workforce mamangement SaaS c
 
 -   ### Design
     -   #### Colour Scheme
-        -   The two main colours used are Code Insititue red, and white.
-    -   #### Typography
-        -   The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
+        -   The two main colours used are blue and navy
+        -   The Roboto font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Roboto is a clean font used frequently in programming, so it is both attractive and appropriate.
     -   #### Imagery
         -   Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
 
 *   ### Wireframes
 
-    -   Home Page Wireframe - [View](https://github.com/)
+    -   Desktop Wireframe - [View](https://github.com/)
 
     -   Mobile Wireframe - [View](https://github.com/)
-
-    -   Contact Us Page Wireframe - [View](https://github.com/)
 
 ## Features
 
@@ -60,20 +57,16 @@ This is the main marketing website for Flux Time, a workforce mamangement SaaS c
 
 1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
     - Bootstrap was used to assist with the responsiveness and styling of the website.
-1. [Hover.css:](https://ianlunn.github.io/Hover/)
-    - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
 1. [Google Fonts:](https://fonts.google.com/)
-    - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
-1. [Font Awesome:](https://fontawesome.com/)
-    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+    - Google fonts were used to add the 'Robot' font into the head.
 1. [jQuery:](https://jquery.com/)
     - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
 1. [Git](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
-1. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
-    - Photoshop was used to create the logo, resizing images and editing photos for the website.
+1. [Illustrator:](https://www.adobe.com/ie/products/illustrator.html)
+    - Illustrator was used to create the blob background image for the website.
 1. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
 
@@ -142,16 +135,10 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Further Testing
 
--   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
--   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
--   A large amount of testing was done to ensure that all pages were linking correctly.
--   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 ### Known Bugs
 
--   On some mobile devices the Hero Image pushes the size of screen out more than any of the other content on the page.
-    -   A white gap can be seen to the right of the footer and navigation bar as a result.
--   On Microsoft Edge and Internet Explorer Browsers, all links in Navbar are pushed upwards when hovering over them.
+
 
 ## Deployment
 
@@ -203,9 +190,13 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ## Credits
 
-### Code
+### Media
 
--   The full-screen hero image code came from this [StackOverflow post](https://stackoverflow.com)
+-   The illustrated hero images came from [unDraw.co](https://undraw.co)
+-   The Flux Time logo came from [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Icons8_flat_clock.svg)
+-   The blobs background image was created with [Blob Maker App](https://www.blobmaker.app/)
+
+### Code
 
 -   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 
@@ -213,13 +204,8 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Content
 
--   All content was written by the developer.
+-   Content on the site was adapted from [Spacetime.am](https://spacetime.am) and [Papershit.com]([Spacetime.am](https://spacetime.am))
 
--   Psychological properties of colours text in the README.md was found [here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
-
-### Media
-
--   All Images were created by the developer.
 
 ### Acknowledgements
 
