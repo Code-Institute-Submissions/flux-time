@@ -4,7 +4,7 @@
 
 This is the main marketing website for Flux Time, a remote employee scheduling app. It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential customers.
 
-<h2 align="center"><img src="https://i.ibb.co/TYvTXz1/Example-CI.png"></h2>
+![Website Overview](./assets/images/flux-time-screenshot.png)
 
 ## User Experience (UX)
 
@@ -204,7 +204,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Content
 
--   Content on the site was adapted from [Spacetime.am](https://spacetime.am) and [Papershift.com](https://spacetime.am)
+-   Content on the site was adapted from [Spacetime.am](https://spacetime.am) and [Papershift.com](https://www.papershift.com/en/schedule)
 
 
 ### Acknowledgements
