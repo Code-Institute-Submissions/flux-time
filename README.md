@@ -204,7 +204,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Content
 
--   Content on the site was adapted from [Spacetime.am](https://spacetime.am) and [Papershit.com]([Spacetime.am](https://spacetime.am))
+-   Content on the site was adapted from [Spacetime.am](https://spacetime.am) and [Papershift.com](https://spacetime.am)
 
 
 ### Acknowledgements
