@@ -24,6 +24,32 @@ body,
 }
 
 /* Navbar */
+.navbar-collapse {
+    background: #1d293f;
+    border-radius: 5px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color:#ffffff;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, 
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(242 232 232 / 70%);
+}
+
+@media screen and (min-width:992px) {
+    .navbar-collapse {
+        background: transparent;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: rgba(0,0,0,.5);
+    }
+    .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+        color: rgba(0,0,0,.7);
+    }
+}
+
 .navbar img {
     max-width: 2rem;
 }
@@ -33,9 +59,6 @@ body,
     border-color: #258aff;
 }
 
-.show {
-    background: white;
-}
 
 /* Logo section */
 #logo-grid img {
