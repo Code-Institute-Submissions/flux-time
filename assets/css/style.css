@@ -73,10 +73,6 @@ body,
     max-width: 6.25rem;
 }
 
-section {
-    padding: 5rem 0;
-}
-
 .pricing-card {
     border-radius: 20px;
 }
