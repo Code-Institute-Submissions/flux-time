@@ -4,8 +4,7 @@ html {
 }
 
 body {
-    background: url("../images/blobs.png") center top / contain no-repeat,
-    url("../images/blobs-bottom.png") center bottom / contain no-repeat;
+    background: url("../images/blobs.png") center top / contain no-repeat;
 }
 
 /* Typography */
@@ -19,9 +18,8 @@ body,
     letter-spacing: -1px;
 }
 
-.bg-dark {
-    color: #ffffff;
-    background: #1d293f;
+.bg-light-gray {
+    background: #F6F7FA;
 }
 
 /* Navbar */
@@ -81,4 +79,16 @@ section {
 
 .pricing-card {
     border-radius: 20px;
+}
+
+/*-- Footer Section-- */
+
+.social-icons li a {
+    font-size: 1.5rem;
+    color: #1d293fd1;
+    transition: all 0.10s ease-in-out;
+}
+
+.footer-copyright {
+    font-size: 0.75rem;
 }
