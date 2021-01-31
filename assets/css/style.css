@@ -66,6 +66,7 @@ body,
 .btn-primary {
     background-color: #258aff;
     border-color: #258aff;
+    border-radius: 9999px;
 }
 
 
@@ -76,4 +77,8 @@ body,
 
 section {
     padding: 5rem 0;
+}
+
+pricing-card {
+    border-radius: 20px;
 }
