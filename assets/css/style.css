@@ -4,7 +4,8 @@ html {
 }
 
 body {
-    background: url("../images/blobs.png") center top / contain no-repeat;
+    background: url("../images/blobs.png") center top / contain no-repeat,
+    url("../images/blobs-bottom.png") center bottom / contain no-repeat;
 }
 
 /* Typography */
