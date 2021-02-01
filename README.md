@@ -8,12 +8,54 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 
 ![Website Overview](./assets/images/website-mockup.png)
 
-## Site Owner and Business Goals
+## Table of Contents
+
+* [Site Owner and Business Goals](https://github.com/GaryBarrettDev/flux-time#site-owner-and-business-goals)
+* [User Experience](https://github.com/GaryBarrettDev/flux-time#user-experience-ux)
+
+    * [User stories](https://github.com/GaryBarrettDev/flux-time#user-stories)
+    * [First Time Visitor Goals](https://github.com/GaryBarrettDev/flux-time#first-time-visitor-goals)
+    * [Returning and Frequent Visitor Goals](https://github.com/GaryBarrettDev/flux-time#returning-and-visitor-goals)
+
+* [Design](https://github.com/GaryBarrettDev/flux-time#design)
+    * [Colour Scheme](https://github.com/GaryBarrettDev/flux-time#colour-scheme)
+    * [Typography](https://github.com/GaryBarrettDev/flux-time#typography)
+    * [Imagery](https://github.com/GaryBarrettDev/flux-time#imagery)
+    * [Visual Hierarchy and Conversion Rate Optimisation](https://github.com/GaryBarrettDev/flux-time#visual-hierarchy-and-conversion-rate-optimisation)
+    * [Wireframes](https://github.com/GaryBarrettDev/flux-time#wireframes)
+    * [Features](https://github.com/GaryBarrettDev/flux-time#features)
+    * [technologies used](https://github.com/GaryBarrettDev/flux-time#technologies-used)
+    * [languages used](https://github.com/GaryBarrettDev/flux-time#languages-used)
+    * [Frameworks, Libraries & Programs Used](https://github.com/GaryBarrettDev/flux-time#frameworks-libraries--programs-used)
+
+* [Testing](https://github.com/GaryBarrettDev/flux-time#testing)
+
+     * [Code validation](https://github.com/GaryBarrettDev/flux-time#code-validation)
+     * [Accessibility Testing](https://github.com/GaryBarrettDev/flux-time#accessibility-testing)
+    * [Responsive Testing](https://github.com/GaryBarrettDev/flux-time#responsive-testing)
+    * [Further Testing](https://github.com/GaryBarrettDev/flux-time#further-testing)
+    * [Testing User Stories from User Experience (UX) Section](https://github.com/GaryBarrettDev/flux-time#testing-user-stories-from-user-experience-ux-section)
+     * [First Time Visitor Goals](https://github.com/GaryBarrettDev/flux-time#first-time-visitor-goals-1)
+     * [Known Bugs](https://github.com/GaryBarrettDev/flux-time#known-bugs)
+    * [Deployment](https://github.com/GaryBarrettDev/flux-time#deployment)
+  
+
+ *  [Credits](https://github.com/GaryBarrettDev/flux-time#credits)
+    * [Media](https://github.com/GaryBarrettDev/flux-time#media)    
+    * [Content](https://github.com/GaryBarrettDev/flux-time#content)
+    * [Code](https://github.com/GaryBarrettDev/flux-time#code)
+    * [Acknowledgements](https://github.com/GaryBarrettDev/flux-time#acknowledgements)
+
+
+----
+
+
+##Site Owner and Business Goals
 
 As the site owner, I want my website to act as the main marketing channel for my product.
 
 The goal of the site is to present my product and company in the best possible way so that visitors
-to the site will be encouraged to sign up to use my product.
+will be encouraged to sign up to use my product.
 
 The site needs to present information in a clear manner so that visitors can make an informed
 decision about whether my product is suitable for them.
@@ -31,7 +73,7 @@ As the owner of a [distributed company](https://en.wikipedia.org/wiki/Distribute
 in several different countries and timezones, 
 scheduling rotas and organising Zoom meetings has become increasingly frustrating.
 
-While services like Calendly.com can help two people organise times that suit both parties, it's not a soultion
+While services like Calendly.com can help two people organise times that suit both parties, it's not a solution 
 that scales when dozens or hundreds of people need to schedule periods that overlap.
 
 I'm looking for a solution to this problem that can scale and is cost effective.
@@ -58,13 +100,13 @@ the price plans.
 
 
   
-#### Returning and Visitor Goals
+#### Returning and Frequent Visitor Goals
 
 As a Returning and Frequent visitor:
 
 1. I want to know how I can contact the company so I can ask them questions and get support.
 
-2. I want to know how I can keep track off product and company updates on social media.
+2. I want to know how I can keep track of product and company updates on social media.
 
 
   ___
@@ -73,7 +115,13 @@ As a Returning and Frequent visitor:
 
 #### Colour Scheme
 
-The main colours used are blue and light gray. According to an article on [the science of colour persuasion](https://idealogicbrandlab.com/color-persuasion/):
+The main colours used are blue, light blue, and white. 
+
+- ![#006DEB](https://via.placeholder.com/15/006DEB/000000?text=+) `#006DEB`
+- ![#F6F7FA](https://via.placeholder.com/15/#F6F7FA/000000?text=+) `#F6F7FA`
+
+
+According to an article on [the science of colour persuasion](https://idealogicbrandlab.com/color-persuasion/):
 
 > (Blue suggests)..trust, loyalty, dependability, logic, security, and serenity. Provides a sense of security and stimulates productivity. 
 
@@ -120,8 +168,8 @@ ___
 
 - Responsive on all device sizes
 - Anchor links to different page sections
-- sign up and contact forms
-- social media links
+- Sign up and contact forms
+- Social media links
 
 ## Technologies Used
 
@@ -145,7 +193,7 @@ ___
 
  [Google Fonts:](https://fonts.google.com/)
 
-- Google Fonts was used to add 'Open Sans' to body text. Instead of using @import to load the fonts in style.css, the files are linked to in site's head to improve load times, and to prevent possible flashes of unstyled text (FOUT), which would create a poor user experience.
+- Google Fonts was used to add 'Open Sans' to body text. Instead of using @import to load the fonts in style.css, files are linked to in site's head to improve load times, and to prevent possible flashes of unstyled text (FOUT), which would create a poor user experience.
 
  [jQuery:](https://jquery.com/)
 
@@ -210,7 +258,7 @@ The site was also tested manually to make sure that it was navigable by using th
 ___
 ### Responsive Testing
 
-The sites repsoniveness was tested using:
+The site's repsoniveness was tested using:
 
 - [Google's Mobile Friendly Tester](https://search.google.com/test/mobile-friendly) - [Results](./assets/images/google-mobile-friendly-test.png)
 -  [Responsinator](https://www.responsinator.com/) - [Results](https://www.responsinator.com/?url=https%3A%2F%2Fgarybarrettdev.github.io%2Fflux-time%2F)
@@ -253,7 +301,7 @@ ___
     3. The presence of a contact form creates trust by letting visitors know they have a way of contacting the company if
         they have questions or need support.
     4. The repetition and consistent messages in call to action buttons and section titles about there being a free trial without
-     requiring a credit card reassures visitor that they have nothing to lose by signing up for a trial.
+     requiring a credit card reassures visitors that they have nothing to lose by signing up for a trial.
 
 
 3. I want to easily understand the main purpose of the product and service 
@@ -278,11 +326,12 @@ the price plans.
     1. Links to the the businesses can be found in the footer.
 
 7. I want to know how I can start using the product.
-    1. There are several bright call to action buttons that lead the visitor to a sign up form that they can use to gain acces to the product.
+    1. There are several bright call to action buttons that lead the visitor to a sign up form that they can use to gain acces to the product,
+     including a prominent button in the navigation menu.
 
   
 
--  #### Returning and Visitor Goals
+ #### Returning and Frequent Visitor Goals
 
 1. I want to know how I can contact the company so I can ask them questions and get support.
 
@@ -417,7 +466,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Code
 
- - [Bootstrap 4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System. Code for the sites navbar was adapted from [Bootstrap's docs](https://getbootstrap.com/docs/4.0/components/navbar/). 
+ - [Bootstrap 4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System. Code for the site's navbar was adapted from [Bootstrap's docs](https://getbootstrap.com/docs/4.0/components/navbar/). 
  
 - [Fabrx.co](https://fabrx.co/muze/snippets/pricing.html): Adapted HTML for the pricing cards.
 
