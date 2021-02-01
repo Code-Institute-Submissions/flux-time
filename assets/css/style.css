@@ -60,7 +60,8 @@ body {
 }
 
 /* Override Bootstraps button styling */
-.btn-primary {
+.btn-primary,
+#menu-cta {
     background-color: #258aff;
     border-color: #258aff;
     border-radius: 9999px;
