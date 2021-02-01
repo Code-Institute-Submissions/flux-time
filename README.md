@@ -2,9 +2,9 @@
 
 [View the live project here.](https://garybarrettdev.github.io/flux-time/)
 
- This is a site for a ficticious [SaaS company](https://en.wikipedia.org/wiki/Software_as_a_service) that makes a remote employee scheduling app called Flux Time.
+ This is a site for a fictitious [SaaS company](https://en.wikipedia.org/wiki/Software_as_a_service) that makes a remote employee scheduling app called Flux Time.
  
-It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential customers.
+It is designed to be responsible and accessible on a range of devices, making it easy to navigate for potential customers.
 
 ![Website Overview](./assets/images/website-mockup.png)
 
@@ -55,7 +55,7 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 As the site owner, I want my website to act as the main marketing channel for my product.
 
 The goal of the site is to present my product and company in the best possible way so that visitors
-will be encouraged to sign up to use my product.
+will be encouraged to sign-up to use my product.
 
 The site needs to present information in a clear manner so that visitors can make an informed
 decision about whether my product is suitable for them.
@@ -133,21 +133,21 @@ Open Sans is the main font used throughout the whole website with Sans Serif as 
 
  #### Imagery
  
-Illustrated hero images are used as part of a modern, flat aesthetic to provide a calming and welcoming experience for visitors. Scalable vetor graphics (svg's) are used to ensure images remain sharp at all screen sizes while keeping page load times to a minimum.
+Illustrated hero images are used as part of a modern, flat aesthetic to provide a calming and welcoming experience for visitors. Scalable vector graphics (svg's) are used to ensure images remain sharp at all screen sizes while keeping page load times to a minimum.
 
-The site also uses abstract images of blobs and waves, which are a [modern trend in web design](https://bashooka.com/inspiration/examples-of-blob-shapes-in-web-design/). The curves of these images helps to conteract the harsh "Lego block" aesthetic of default Bootstrap, creating a more enoyable and friendly user experience.
+The site also uses abstract images of blobs and waves, which are a [modern trend in web design](https://bashooka.com/inspiration/examples-of-blob-shapes-in-web-design/). The curves of these images helps to conteract the harsh "Lego block" aesthetic of default Bootstrap, creating a more enjoyable and friendly user experience.
 
 #### Visual Hierarchy and Conversion Rate Optimisation
 
 The site uses a clear [visual hierarchy](https://www.interaction-design.org/literature/topics/visual-hierarchy) to help both the site owner and visitors to the site achieve their goals. This includes:
 
-1. Learning details about what the product and service does.
+1. Learning details about what the product and service do.
 2. Seeing examples of other companies that use the product to build trust and credibility.
 3. Understanding the cost and differences between price plans.
-4. A form to help get acces to the product.
-5. A contact form if the vistor has any questions.
+4. A form to help get access to the product.
+5. A contact form if the visitor has any questions.
 
-All of the information is presented on one page without the need to click to additonal pages.
+All of the information is presented on one page without the need to click to additional pages.
 
 Consistent and repeated call to action buttons are intended to help the site owner convert visitors into customers.
 
@@ -190,13 +190,13 @@ ___
     based on the numbers of employees a business has.
 
 * 30 Day Trial Form
-    * This form is intentionally kept simple with a minimal number required fields in order to improve conversion rates.
+    * This form is intentionally kept simple with a minimal number of required fields to improve conversion rates.
     UX studies have demonstrated a clear
      [correlation between the number of fields and conversions](https://blog.hubspot.com/blog/tabid/6307/bid/6746/Which-Types-of-Form-Fields-Lower-Landing-Page-Conversions.aspx). Keeping the form simple also prevents
     users from becoming frustrated or overburdened. The form fields are validated and have helpful notices and placeholders.
      
 * Contact Form
-    * Simlar to the form for the trial, the contact form fields are validated, have helpful notices, and placeholders. This means that if a user
+    * Simliar to the form for the trial, the contact form fields are validated, have helpful notices, and placeholders. This means that if a user
     tries to submit a message with uses a properly formated email address, they'll be notified of their mistake.
 
 * Social icons in the footer
@@ -292,7 +292,7 @@ The site was also tested manually to make sure that it was navigable by using th
 ___
 ### Responsive Testing
 
-The site's repsoniveness was tested using:
+The site's repsonsiveness was tested using:
 
 - [Google's Mobile Friendly Tester](https://search.google.com/test/mobile-friendly) - [Results](./assets/images/google-mobile-friendly-test.png)
 -  [Responsinator](https://www.responsinator.com/) - [Results](https://www.responsinator.com/?url=https%3A%2F%2Fgarybarrettdev.github.io%2Fflux-time%2F)
@@ -320,7 +320,7 @@ ___
 1. I want my first impression of the site's design to be positive.
 
     1. Upon entering the site, users are automatically greeted with a clean, modern, flat aesthetic and hero illustrations.
-    2. Colours are complimentary and pleasing.
+    2. Colours are complementary and pleasing.
     3. Text is easy to read.
     4. Anchor links in the menu make it easy to navigate between different sections of the site.
     
@@ -341,13 +341,13 @@ ___
 3. I want to easily understand the main purpose of the product and service 
 being provided.
 
-    1. The hero sections clealy describe the problem that the products hopes to solves.
+    1. The hero sections clearly describe the problem that the product hopes to solves.
     2.  If anything is unclear, there is a contact form visitors can use if they have any questions.
 
 4. I want to know how much this product costs and what are the differences between 
 the price plans.
 
-    1. Pricing cards provides information on which plan is best suited for a
+    1. Pricing cards provide information on which plan is best suited for a
      company based on the number of employees they have.
 
 5. I want to know how I can contact the company if I have questions or need support.
@@ -357,10 +357,10 @@ the price plans.
     reach out and talk to the company.
 
 6. I want to see if the company is active on social media.
-    1. Links to the the businesses can be found in the footer.
+    1. Links to the companies social media accounts can be found in the footer.
 
 7. I want to know how I can start using the product.
-    1. There are several bright call to action buttons that lead the visitor to a sign up form that they can use to gain acces to the product,
+    1. There are several bright call to action buttons that lead the visitor to a sign-up form that they can use to gain acces to the product,
      including a prominent button in the navigation menu.
 
   
@@ -377,7 +377,7 @@ the price plans.
 
 ### Bugs encountered
 
-- Chrome DevTools giving a 404 eror for a missing favicon ([fixed here](https://github.com/GaryBarrettDev/flux-time/commit/1d1571df1b81ba65b45cfc66866202d3386b2d28)] 
+- Chrome DevTools giving a 404 error for a missing favicon ([fixed here](https://github.com/GaryBarrettDev/flux-time/commit/1d1571df1b81ba65b45cfc66866202d3386b2d28)] 
 - Google Lighthouse reporting that using `target="_blank"` without `rel="noopener"`can be a security vulnerability 
 ([fixed here](https://github.com/GaryBarrettDev/flux-time/commit/236b0c0f92ea078cbd1fc0637f08795d6dc577ac))
 
