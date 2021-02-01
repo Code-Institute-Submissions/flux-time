@@ -2,44 +2,70 @@
 
 [View the live project here.](https://garybarrettdev.github.io/flux-time/)
 
- This is a site for a ficticious company and remote employee scheduling app called Flux Time.
+ This is a site for a ficticious [SaaS company](https://en.wikipedia.org/wiki/Software_as_a_service) that makes a remote employee scheduling app called Flux Time.
  
 It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential customers.
 
 ![Website Overview](./assets/images/website-mockup.png)
 
-## Site Owner Goals and Brief
+## Site Owner and Business Goals
 
+As the site owner, I want my website to act as the main marketing channel for my product.
 
+The goal of the site is to present my product and company in the best possible way so that visitors
+to the site will be encouraged to sign up to use my product.
 
+The site needs to present information in a clear manner so that visitors can make an informed
+decision about whether my product is suitable for them.
+
+The site also needs a way for visitors to contact us if they have any additional questions about the product.
+
+---
   
 
 ## User Experience (UX)
 
+### User stories
+
+As the owner of a [distributed company](https://en.wikipedia.org/wiki/Distributed_workforce) with remote workers 
+in several different countries and timezones, 
+scheduling rotas and organising Zoom meetings has become increasingly frustrating.
+
+While services like Calendly.com can help two people organise times that suit both parties, it's not a soultion
+that scales when dozens or hundreds of people need to schedule periods that overlap.
+
+I'm looking for a solution to this problem that can scale and is cost effective.
+
+ #### First Time Visitor Goals
+
+As a First Time Visitor:
+
+1. I want my first impression of the site's design to be positive.  
+
+2.  I want to know if this company and site are trustworthy and credible.
+
+3. I want to easily understand the main purpose of the product and service 
+being provided.
+
+4. I want to know how much this product costs and what are the differences between 
+the price plans.
+
+5. I want to know how I can contact the company if I have questions or need support.
+
+6. I want to see if the company is active on social media.
+
+7. I want to know how I can start using the product.
+
+
   
+#### Returning and Visitor Goals
 
--  ### User stories
+As a Returning and Frequent visitor:
 
-  
+1. I want to know how I can contact the company so I can ask them questions and get support.
 
--  #### First Time Visitor Goals
+2. I want to know how I can keep track off product and company updates on social media.
 
-  
-
-1. As a First Time Visitor, I want to easily understand the main purpose of the product and service being provided.
-
-2. As a First Time Visitor, I want to be
-
-3.
-
-  
-
--  #### Returning Visitor Goals
-
-  
-  
-
--  #### Frequent User Goals
 
   ___
 
@@ -69,9 +95,9 @@ The site uses a clear [visual hierarchy](https://www.interaction-design.org/lite
 
 1. Learning details about what the product and service does.
 2. Seeing examples of other companies that use the product to build trust and credibility.
-3. Understanding the cost and differences beteen price plans.
+3. Understanding the cost and differences between price plans.
 4. A form to help get acces to the product.
-5.  A contact form if the vistor has any questions.
+5. A contact form if the vistor has any questions.
 
 All of the information is presented on one page without the need to click to additonal pages.
 
@@ -92,12 +118,10 @@ ___
 
 ## Features
 
-  
-
 - Responsive on all device sizes
-
-  
-  
+- Anchor links to different page sections
+- sign up and contact forms
+- social media links
 
 ## Technologies Used
 
@@ -125,7 +149,7 @@ ___
 
  [jQuery:](https://jquery.com/)
 
-- jQuery came with Bootstrap to make the navbar responsive.
+- jQuery used by Bootstrap for the collapsible mobile menu.
 
 [Git](https://git-scm.com/)
 
@@ -151,6 +175,8 @@ ___
 
 - Balsamiq was used to create wireframes during the design process.
 
+---
+
 ## Testing
 
   ### Code validation
@@ -169,9 +195,9 @@ ___
 
 Three issues arose during testing:
 
-1. A lack of contrast on buttons
-2. Headings were out of sequential order
-3. Absence of labels on forms
+1. A lack of contrast on buttons ([fixed here](https://github.com/GaryBarrettDev/flux-time/commit/bc1494de20f1bbce98020e3481731379e0680989)).
+2. Headings were out of sequential order ( [fixed here](https://github.com/GaryBarrettDev/flux-time/commit/8c37cad0f15fe89d18fd1ceda153554e0fde8de4)).
+3. Absence of labels on forms ( [fixed here](https://github.com/GaryBarrettDev/flux-time/commit/e3c3b3539fd3830379774840d8847e59967bbff2)).
 
 All issues were fixed and scores were perfect on the final tests. Google Lighthouse even had fireworks animations to celebrate.
 
@@ -190,38 +216,92 @@ The sites repsoniveness was tested using:
 -  [Responsinator](https://www.responsinator.com/) - [Results](https://www.responsinator.com/?url=https%3A%2F%2Fgarybarrettdev.github.io%2Fflux-time%2F)
 - [Chrome DevTools' Device Mode](https://developers.google.com/web/tools/chrome-devtools/device-mode)
 
-The site was also tested by manually resizing the browser to check for any issues at uncomon screen sizes.
+The site was also tested by manually resizing the browser to check for any issues at uncommon screen sizes.
 
 No known issues were found.
+
+---
+
+### Further Testing
+
+- Form validation was tested to make sure all required fields function correctly.
+- The navigation menu and anchor links were tested in Brave, Chrome, Firefox, and Edge.
+- Footer social icon links were tested to make sure they open in another tab.
 
 ___
 
 ### Testing User Stories from User Experience (UX) Section
 
+#### First Time Visitor Goals
+
+
+1. I want my first impression of the site's design to be positive.
+
+    1. Upon entering the site, users are automatically greeted with a clean, modern, flat aesthetic and hero illustrations.
+    2. Colours are complimentary and pleasing.
+    3. Text is easy to read.
+    4. Anchor links in the menu make it easy to navigate between different sections of the site.
+    
+ 
+
+2. I want to know if this company and site are trustworthy and credible.
+
+    1. Seeing a list of logos from companies that use the product acts as [social proof](https://en.wikipedia.org/wiki/Social_proof) and instills trust and confidence
+        in the site and company.
+    2. Links to the businesses social media accounts in the footer allows visitors to see how responsive
+        the company is to customer queries in public. 
+    3. The presence of a contact form creates trust by letting visitors know they have a way of contacting the company if
+        they have questions or need support.
+    4. The repetition and consistent messages in call to action buttons and section titles about there being a free trial without
+     requiring a credit card reassures visitor that they have nothing to lose by signing up for a trial.
+
+
+3. I want to easily understand the main purpose of the product and service 
+being provided.
+
+    1. The hero sections clealy describe the problem that the products hopes to solves.
+    2.  If anything is unclear, there is a contact form visitors can use if they have any questions.
+
+4. I want to know how much this product costs and what are the differences between 
+the price plans.
+
+    1. Pricing cards provides information on which plan is best suited for a
+     company based on the number of employees they have.
+
+5. I want to know how I can contact the company if I have questions or need support.
+
+    1. There is a "Contact Us" button in the navigation menu that links directly to the section with the contact form.
+    2. Social Media links in the footer provide another method visitors can use if they want to 
+    reach out and talk to the company.
+
+6. I want to see if the company is active on social media.
+    1. Links to the the businesses can be found in the footer.
+
+7. I want to know how I can start using the product.
+    1. There are several bright call to action buttons that lead the visitor to a sign up form that they can use to gain acces to the product.
+
   
 
--  #### First Time Visitor Goals
+-  #### Returning and Visitor Goals
+
+1. I want to know how I can contact the company so I can ask them questions and get support.
+
+    1. There's a "Contact Us" link in the header that links to the section of the page with the contact form.
+
+2. I want to know how I can keep track of product and company updates on social media.
+   1. Social media links in the footer allow visitors to follow the company when they post updates.
+  
 
   
 
--  #### Returning Visitor Goals
 
-  
-
--  #### Frequent User Goals
-
-  
-
-  
-
-### Further Testing
-The site was tested on  my own phone, tablet, and laptop to make that 
-menu and anchor links functioned correctly. The site was test in Brave, Chrome, Firefox, and Edge.
   
 
 ### Known Bugs
 
 There are no known bugs.
+
+----
 
 ## Deployment
 
@@ -309,7 +389,7 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
 Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
 
-  
+ --- 
 
 ## Credits
 
@@ -337,7 +417,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Code
 
- - [Bootstrap 4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System. Code for the sites navbar was adapted from [Bootstraps docs](https://getbootstrap.com/docs/4.0/components/navbar/). 
+ - [Bootstrap 4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System. Code for the sites navbar was adapted from [Bootstrap's docs](https://getbootstrap.com/docs/4.0/components/navbar/). 
  
 - [Fabrx.co](https://fabrx.co/muze/snippets/pricing.html): Adapted HTML for the pricing cards.
 
@@ -347,3 +427,4 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 - My mentor Antonio Rodriguez for feedback and positive encouragement.
 
 - Everyone in Slack.  Any time I ran into an issue with Gitpod, I found that someone had already asked the same question before, and had recieve an answer or solution. It's a great resource I'd be lost without.
+
