@@ -50,7 +50,7 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 ----
 
 
-##Site Owner and Business Goals
+## Site Owner and Business Goals
 
 As the site owner, I want my website to act as the main marketing channel for my product.
 
