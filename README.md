@@ -171,6 +171,18 @@ ___
 - Sign up and contact forms
 - Social media links
 
+* Responsive menu with call to action button
+    * The navigation menu uses Bootstrap's javascript to create a toggle and collapses on mobile devices, 
+    providing an excellent user experience on smaller screens.
+    * The menu links to different sections on the same page using 
+    [CSS smooth scrolling](https://github.com/GaryBarrettDev/flux-time/blob/master/assets/css/style.css#L1) 
+    to prevent the page movement from being harsh and abrupt for users.
+    * One of menu links contains a "call to action" that is designed to stand out from the other menu items, 
+    encouraging users to fulfill the site owners goal of having visitors sign up as customers.
+
+* Hero Sections with product details and illustrations
+
+
 ## Technologies Used
 
 ### Languages Used
@@ -392,7 +404,7 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 
   
 
-1. Log in to GitHub and locate the [Flux Time GitHub Repository](https://github.com/)
+1. Log in to GitHub and locate the [Flux Time GitHub Repository](https://github.com/GaryBarrettDev/flux-time)
 
 2. Under the repository name, click "Clone or download".
 
@@ -408,7 +420,7 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 
 ```
 
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+$ git clone https://github.com/GaryBarrettDev/flux-time
 
 ```
 
@@ -420,7 +432,7 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
 ```
 
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+$ git clone https://github.com/GaryBarrettDev/flux-time
 
 > Cloning into `CI-Clone`...
 
