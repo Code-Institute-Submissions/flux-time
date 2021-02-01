@@ -199,6 +199,10 @@ ___
     * Simlar to the form for the trial, the contact form fields are validated, have helpful notices, and placeholders. This means that if a user
     tries to submit a message with uses a properly formated email address, they'll be notified of their mistake.
 
+* Social icons in the footer
+    * The Font Awesome icons in the footer provide an easy way for users to follow or contact the company on social media. It also allows
+    users to see how the company interacts with other people.
+
 
 
 ## Technologies Used
@@ -371,14 +375,19 @@ the price plans.
    1. Social media links in the footer allow visitors to follow the company when they post updates.
   
 
-  
+### Bugs encountered
+
+- Chrome DevTools giving a 404 eror for a missing favicon ([fixed here](https://github.com/GaryBarrettDev/flux-time/commit/1d1571df1b81ba65b45cfc66866202d3386b2d28)] 
+- Google Lighthouse reporting that using `target="_blank"` without `rel="noopener"`can be a security vulnerability 
+([fixed here](https://github.com/GaryBarrettDev/flux-time/commit/236b0c0f92ea078cbd1fc0637f08795d6dc577ac))
+
+I also experienced bugs with Gitpod when trying to push commits to Github. This seems to have been an issue 
+on Gitpod's end with their servers. There were a handful of times when commits were only partially pushed.
 
 
-  
+  ### Known Bugs
 
-### Known Bugs
-
-There are no known bugs.
+There are no known bugs in the deployed site.
 
 ----
 
