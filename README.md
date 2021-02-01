@@ -196,7 +196,7 @@ ___
     users from becoming frustrated or overburdened. The form fields are validated and have helpful notices and placeholders.
      
 * Contact Form
-    * Simliar to the form for the trial, the contact form fields are validated, have helpful notices, and placeholders. This means that if a user
+    * Similar to the form for the trial, the contact form fields are validated, have helpful notices, and placeholders. This means that if a user
     tries to submit a message with uses a properly formated email address, they'll be notified of their mistake.
 
 * Social icons in the footer
@@ -247,7 +247,7 @@ ___
 
  [Abobe Illustrator:](https://www.adobe.com/ie/products/illustrator.html)
 
-- Illustrator was used to combine indivual images from Blobmaker  into a single background image for the body.
+- Illustrator was used to combine indivdual images from Blobmaker  into a single background image for the body.
 
 [Get Waves:](https://www.getwaves.io/)
 
