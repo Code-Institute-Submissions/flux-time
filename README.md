@@ -166,10 +166,6 @@ ___
 
 ## Features
 
-- Responsive on all device sizes
-- Anchor links to different page sections
-- Sign up and contact forms
-- Social media links
 
 * Responsive menu with call to action button
     * The navigation menu uses Bootstrap's javascript to create a toggle and collapses on mobile devices, 
@@ -178,9 +174,31 @@ ___
     [CSS smooth scrolling](https://github.com/GaryBarrettDev/flux-time/blob/master/assets/css/style.css#L1) 
     to prevent the page movement from being harsh and abrupt for users.
     * One of menu links contains a "call to action" that is designed to stand out from the other menu items, 
-    encouraging users to fulfill the site owners goal of having visitors sign up as customers.
+    encouraging users to fulfill the site owners goal of converting users into customers.
 
 * Hero Sections with product details and illustrations
+    * The text in the hero sections tries to evoke empathy with users by sympathising with a problem they face, while also detailing how the product
+    on offer might help them. The blue colour scheme and 
+    graphics aim to create a calm and peaceful experience.
+
+*   Logo Section
+    * The purpose of displaying logos from companies that use the service is to act as social proof and reassure users that the company
+    is reputable and trustworthy.
+
+*  Pricing cards
+    * The pricing cards provide users with a clear comparison of the costs for the service 
+    based on the numbers of employees a business has.
+
+* 30 Day Trial Form
+    * This form is intentionally kept simple with a minimal number required fields in order to improve conversion rates.
+    UX studies have demonstrated a clear
+     [correlation between the number of fields and conversions](https://blog.hubspot.com/blog/tabid/6307/bid/6746/Which-Types-of-Form-Fields-Lower-Landing-Page-Conversions.aspx). Keeping the form simple also prevents
+    users from becoming frustrated or overburdened. The form fields are validated and have helpful notices and placeholders.
+     
+* Contact Form
+    * Simlar to the form for the trial, the contact form fields are validated, have helpful notices, and placeholders. This means that if a user
+    tries to submit a message with uses a properly formated email address, they'll be notified of their mistake.
+
 
 
 ## Technologies Used
