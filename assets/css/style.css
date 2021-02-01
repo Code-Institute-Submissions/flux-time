@@ -3,8 +3,14 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Add blobs image at the top of the site */
 body {
     background: url("../images/blobs.png") center top / contain no-repeat;
+}
+
+/* Utility class for changing section backgrounds */
+.bg-light-gray {
+    background: #F6F7FA;
 }
 
 /* Typography */
@@ -15,10 +21,6 @@ body {
 
 .copy-title {
     letter-spacing: -1px;
-}
-
-.bg-light-gray {
-    background: #F6F7FA;
 }
 
 /* Navbar */
@@ -40,6 +42,7 @@ body {
     color: rgb(242 232 232 / 70%);
 }
 
+
 @media screen and (min-width:992px) {
     .navbar-collapse {
         background: transparent;
@@ -56,6 +59,7 @@ body {
     }
 }
 
+/* Override Bootstraps button styling */
 .btn-primary {
     background-color: #258aff;
     border-color: #258aff;
@@ -63,18 +67,18 @@ body {
     padding: .25rem 1.5rem;
 }
 
-/* Logo section */
+/* Logo section - prevents the brand logo svgs from becoming too large */
 #logo-grid img {
     max-width: 6.25rem;
 }
 
+/* Pricing section */
 .pricing-card {
     border-radius: 20px;
     border: 0;
 }
 
-/*-- Footer Section-- */
-
+/* Footer Section */
 .social-icons li a {
     font-size: 1.5rem;
     color: #1d293fd1;
