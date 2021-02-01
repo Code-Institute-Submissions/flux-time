@@ -8,8 +8,7 @@ body {
 }
 
 /* Typography */
-body,
-.card {
+body {
     font-family: 'Open Sans', sans-serif;
 	color: #1d293f;
 }
