@@ -68,6 +68,14 @@ body {
     padding: .25rem 1.5rem;
 }
 
+.btn-primary:hover,
+#menu-cta:hover {
+    background-color: #00b8ff;
+    border-color: #00b8ff;
+    border-radius: 9999px;
+    padding: .25rem 1.5rem;
+}
+
 /* Logo section - prevents the brand logo svgs from becoming too large */
 #logo-grid img {
     max-width: 6.25rem;
