@@ -62,8 +62,8 @@ body {
 /* Override Bootstraps button styling */
 .btn-primary,
 #menu-cta {
-    background-color: #258aff;
-    border-color: #258aff;
+    background-color: #006DEB;
+    border-color: #006DEB;
     border-radius: 9999px;
     padding: .25rem 1.5rem;
 }
